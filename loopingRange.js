@@ -1,8 +1,7 @@
 function range (start, end, step) {
-  var numbers = []
-
-for (var i = start; i <= end; i = i + step) {
-  numbers.push (i)
+  var numbers = [];
+for (let i = start; i <= end; i = i + step) {
+  numbers.push (i);
   }
   return numbers;
 }
