@@ -1,5 +1,5 @@
 function range (start, end, step) {
-  var numbers = [];
+  let numbers = [];
 for (let i = start; i <= end; i = i + step) {
   numbers.push (i);
   }
